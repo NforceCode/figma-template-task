@@ -1,0 +1,37 @@
+.site-footer {
+  padding: 30px 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.copyright-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.5em;
+  color: var(--clr-copyright);
+}
+
+@media screen and (max-width: 768px) {
+  .site-footer {
+    flex-direction: column;
+  }
+  .footer-logo-wrapper {
+    display: none;
+  }
+  .social-links {
+    margin-bottom: 8px;
+  }
+  .copyright-text {
+    text-align: center;
+  }
+}
