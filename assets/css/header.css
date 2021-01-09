@@ -1,0 +1,23 @@
+.site-header {
+  padding: 26px 40px 26px 70px;
+}
+
+.site-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-wrapper {
+  width: 100%;
+}
+
+
+@media screen and (max-width: 992px) {
+  .site-header {
+    padding: 16px;
+  }
+  .logo-wrapper {
+    max-width: 50%;
+  }
+}
