@@ -1,0 +1,57 @@
+.app-info {
+  padding: 72px 120px;
+}
+.app-header{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 82%;
+  opacity: 0.8;
+  color: var(--clr-app-header);
+}
+
+.account-creation,
+.account-exploration {
+  display: flex;
+  align-items: center;
+}
+
+.app-img-wrapper {
+  width: 50%;
+  text-align: center;
+}
+
+.app-info-text > * {
+  margin-top: 7px;
+}
+
+@media screen and (min-width: 993px) {
+  .fd-row-reverse {
+    flex-direction: row-reverse;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .app-info {
+    padding: 72px 30px;
+  }
+  .app-header{
+    font-family: "Monserrat", sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    opacity: 1;
+  }
+  .account-creation,
+  .account-exploration {
+    flex-direction: column-reverse;
+  }
+ .app-info-text {
+    text-align: center;
+  }
+  .app-info-text > * {
+    margin-top: 30px;
+  }
+  .app-img-wrapper {
+    width: 100%;
+  }
+}
