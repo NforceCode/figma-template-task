@@ -8,6 +8,7 @@
   line-height: 82%;
   opacity: 0.8;
   color: var(--clr-app-header);
+  margin-bottom: 30px;
 }
 
 .account-creation,
@@ -22,12 +23,17 @@
 }
 
 .app-info-text > * {
-  margin-top: 7px;
+  margin-bottom: 7px;
 }
 
 @media screen and (min-width: 993px) {
   .fd-row-reverse {
     flex-direction: row-reverse;
+  }
+
+  .app-info-text {
+    width: 50%;
+    margin: 0 auto;
   }
 }
 
@@ -41,6 +47,10 @@
     line-height: 36px;
     opacity: 1;
   }
+
+  .account-creation {
+    margin-bottom: 30px;
+  }
   .account-creation,
   .account-exploration {
     flex-direction: column-reverse;
@@ -49,9 +59,13 @@
     text-align: center;
   }
   .app-info-text > * {
-    margin-top: 30px;
+    margin-bottom: 30px;
   }
   .app-img-wrapper {
-    width: 100%;
+    width: 80%;
+  }
+
+  .info-img {
+   max-width: 300px;
   }
 }
