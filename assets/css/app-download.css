@@ -1,6 +1,6 @@
 .app-download {
   padding: 110px 30px;
-  background-color: var(--clr-main-dark);
+  background: url(./../images/footing-bg-img.jpg) no-repeat center / cover;
   color: var(--clr-main-light);
 }
 
@@ -9,7 +9,7 @@
 }
 
 .app-textbox {
-  padding: 10px;
+  margin: 10px;
   color: var(--clr-main-light);
 }
 
@@ -31,14 +31,12 @@
 
 
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
   .app-text-clr {
     color: var(--clr-app-text-smallscreen);
   }
-}
-@media screen and (min-width: 993px) {
   .app-download {
-    background: url(./../images/footing-bg-img.jpg) no-repeat center / cover;
+    background: var(--clr-main-dark);
   }
 }
 
