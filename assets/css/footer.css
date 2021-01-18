@@ -19,6 +19,7 @@
   font-size: 12px;
   line-height: 1.5em;
   color: var(--clr-copyright);
+  max-width: 280px;
 }
 
 @media screen and (max-width: 768px) {

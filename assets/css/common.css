@@ -37,6 +37,7 @@
 
 .text-center {
   text-align: center;
+  margin: 0 auto;
 }
 
 .main-heading,
@@ -52,6 +53,7 @@
   color: var(--clr-text-dark);
   font-size: 16px;
   line-height: 1.5em;
+  max-width: 80%;
 }
 
 .main-heading {
@@ -78,16 +80,24 @@
 
 .btn {
   display: block;
-  padding: 16px 58.5px;
-  max-width: 300px;
+  padding: 16px 40px;
+  max-width: 260px;
   color: var(--clr-main-light);
   background-color: var(--clr-secondary);
   border: 1px solid var(--clr-secondary);
-  border-radius: 20px;
+
   font-size: 24px;
   line-height: 1.5em;
 }
 
+.btn-link {
+  border-radius: 10px;
+}
+
+.btn,
+.link-text {
+  border-radius: 20px;
+}
 
 .btn-transparent {
   background-color: unset;
@@ -102,7 +112,7 @@
   color: var(--clr-secondary);
   text-transform: initial;
   margin: inherit;
-  border-radius: 20px;
+  max-width: 300px;
 }
 
 .btn:hover,
@@ -114,7 +124,9 @@
 .btn-transparent:hover,
 .btn-transparent:focus,
 .link-text:hover,
-.link-text:focus {
+.link-text:focus,
+.btn-link:hover,
+.btn-link:focus {
   box-shadow: 0px 0px 20px 5px var(--clr-secondary);
   outline: none;
 }

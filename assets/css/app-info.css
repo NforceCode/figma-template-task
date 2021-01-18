@@ -9,6 +9,7 @@
   opacity: 0.8;
   color: var(--clr-app-header);
   margin-bottom: 30px;
+  max-width: 280px;
 }
 
 .account-creation,

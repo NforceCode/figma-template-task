@@ -9,7 +9,7 @@
 }
 
 .app-textbox {
-  margin: 10px;
+  margin: 10px 0;
   color: var(--clr-main-light);
 }
 
@@ -17,6 +17,7 @@
   padding: 18px 31px;
   border-radius: 10px;
   font-size: 16px;
+  max-width: 200px;
 }
 
 .app-links-container {
