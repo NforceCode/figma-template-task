@@ -1,6 +1,6 @@
 .phone-imgs {
   padding: 20px;
-  height: 500px;
+  height: 600px;
 }
 
 .phone-container {
@@ -40,7 +40,7 @@
   }
   .phone-separator {
     width: 100%;
-    /* bottom: -10px; */
+    bottom: -110px;
   }
 }
 
