@@ -85,7 +85,6 @@
   color: var(--clr-main-light);
   background-color: var(--clr-secondary);
   border: 1px solid var(--clr-secondary);
-
   font-size: 24px;
   line-height: 1.5em;
 }
