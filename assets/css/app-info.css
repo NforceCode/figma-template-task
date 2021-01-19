@@ -5,11 +5,11 @@
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 44px;
-  line-height: 82%;
+  line-height: 1.2em;
   opacity: 0.8;
   color: var(--clr-app-header);
   margin-bottom: 30px;
-  max-width: 280px;
+  max-width: 60%;
 }
 
 .account-creation,
@@ -68,5 +68,11 @@
 
   .info-img {
    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .app-header{
+    max-width: 60%;
   }
 }
