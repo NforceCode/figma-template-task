@@ -12,6 +12,10 @@
   width: 100%;
 }
 
+.burger-wrapper {
+  cursor: pointer;
+}
+
 
 @media screen and (max-width: 992px) {
   .site-header {
