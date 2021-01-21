@@ -39,6 +39,11 @@
   .app-download {
     background: var(--clr-main-dark);
   }
+
+  .app-btn {
+    padding: 16px 22px;
+    max-width: 160px;
+  }
 }
 
 @media screen and (max-width: 375px) {
