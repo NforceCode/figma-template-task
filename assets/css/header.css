@@ -14,6 +14,18 @@
 
 .burger-wrapper {
   cursor: pointer;
+  background: transparent;
+  border: none;
+  padding: 8px;
+}
+
+.burger-wrapper:hover,
+.burger-wrapper:focus {
+  outline: none;
+}
+
+.burger-wrapper:active {
+  transform: scale(0.99);
 }
 
 
