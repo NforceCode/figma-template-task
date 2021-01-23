@@ -15,6 +15,10 @@
   margin: 0 auto;
 }
 
+.img-shadow {
+  filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.21));
+}
+
 .img-wrapper {
   width: 100%;
 }
@@ -138,12 +142,6 @@
 
 .link-wrapper + .link-wrapper{
   padding-left: 34px;
-}
-
-@media screen and (max-width: 992px) {
-  .img {
-    filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.21));
-  }
 }
 
 @media screen and (max-width: 768px) {
