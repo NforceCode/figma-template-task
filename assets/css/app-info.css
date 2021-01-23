@@ -27,14 +27,18 @@
   margin-bottom: 7px;
 }
 
-@media screen and (min-width: 993px) {
+.info-img {
+  max-width: 300px;
+ }
+
+ .app-info-text {
+  width: 50%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 769px) {
   .fd-row-reverse {
     flex-direction: row-reverse;
-  }
-
-  .app-info-text {
-    width: 50%;
-    margin: 0 auto;
   }
 }
 
@@ -53,27 +57,27 @@
   .account-creation {
     margin-bottom: 30px;
   }
-  .account-creation,
-  .account-exploration {
-    flex-direction: column-reverse;
-  }
- .app-info-text {
+
+  .app-info-text {
     text-align: center;
+    width: 60%;
+    margin: 0 auto;
   }
   .app-info-text > * {
     margin-bottom: 30px;
   }
   .app-img-wrapper {
-    width: 80%;
+    width: 100%;
   }
 
-  .info-img {
-   max-width: 300px;
-  }
 }
 
 @media screen and (max-width: 768px) {
   .app-header{
     max-width: 280px;
+  }
+  .account-creation,
+  .account-exploration {
+    flex-direction: column-reverse;
   }
 }
