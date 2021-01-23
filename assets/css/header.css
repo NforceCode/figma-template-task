@@ -28,12 +28,15 @@
   transform: scale(0.99);
 }
 
+.logo-img {
+  margin: 0;
+}
 
 @media screen and (max-width: 992px) {
   .site-header {
     padding: 16px;
   }
   .logo-wrapper {
-    max-width: 50%;
+    width: 50%;
   }
 }
