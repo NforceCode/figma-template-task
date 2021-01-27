@@ -46,6 +46,12 @@
   }
 }
 
+@media screen and (max-width:576px) {
+  .app-download {
+    padding: 110px 16px;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .app-links-container {
     flex-direction: column;
